@@ -92,7 +92,36 @@
         margin-top: 100px;
 
     }
+  th ,td{
+    border: 2px solid black;
+  }
+  .tbl{
+    margin-bottom: 50px;
+
+  }
+  .tbl table{
+    margin:  auto;
+    width: 80%;
+    
+
+  }
+  table{
+    border-collapse: collapse;
+    overflow-x: auto;
+    margin-bottom: 50px;
+  }
+  .tbl table tr{
+    height: 50px;
+  }
+  .tbl table td{
+    text-align: center;
+  }
   table th{
-    font-weight: bold;
+    color: #461711;
+    background-color: #FCF7AD;
+  }
+  table tr:hover{
+background-color: antiquewhite;
+
 
   }
